@@ -6,13 +6,12 @@
         }
 
         #userAgentDisplay {
-            width:500px;
+            width: 500px;
             border-width: 0px;
-           
-        }
 
-        
+        }
     </style>
+    <meta name="google-site-verification" content="NFPQkVIqVga0K_haYay4lh6ZvnWk9gZW2ZQu9ZE8QUo" />
 </head>
 
 <body>
@@ -20,9 +19,9 @@
     <hr>
     <p id="display" style="margin:0 auto;width:w00vh;text-align:center;"></p>
     <hr>
-        
-        <p id="userAgentDisplay" style="margin:0 auto;width:100vh;text-align:center;"></p>
-    
+
+    <p id="userAgentDisplay" style="margin:0 auto;width:100vh;text-align:center;"></p>
+
     <script>window.onload = function () {
             var userAgent = navigator.userAgent;
             var os = "Unknown";
@@ -43,8 +42,8 @@
             }
 
             document.getElementById("display").innerHTML =
-                "Operating System: " + os ;
-            document.getElementById("userAgentDisplay").innerText ="Your UserAgent: "+userAgent
+                "Operating System: " + os;
+            document.getElementById("userAgentDisplay").innerText = "Your UserAgent: " + userAgent
 
 
         }
